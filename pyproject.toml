@@ -1,0 +1,9 @@
+[tool.briefcase]
+project_name = "NexoSuperior"
+bundle = "com.ulivarrivida-7"
+version = "1.0.0"
+author = "David"
+
+[tool.briefcase.app.NexoSuperior]
+sources = ["src/nexosuperior"]
+requires = ["toga-iOS"]
